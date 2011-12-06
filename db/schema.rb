@@ -11,23 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111127152701) do
+ActiveRecord::Schema.define(:version => 20111206152106) do
 
   create_table "articles", :force => true do |t|
     t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "author_id"
   end
+
+  add_index "articles", ["author_id"], :name => "index_articles_on_author_id"
 
   create_table "authors", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.integer  "article_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-  add_index "authors", ["article_id"], :name => "index_authors_on_article_id"
 
   create_table "paragraphs", :force => true do |t|
     t.text     "text"
