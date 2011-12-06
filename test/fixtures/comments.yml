@@ -1,7 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
+  paragraph_revision: 
+  paragraph: 
   article: 
+  text: MyText
+  user: 
 
 two:
+  paragraph_revision: 
+  paragraph: 
   article: 
+  text: MyText
+  user: 

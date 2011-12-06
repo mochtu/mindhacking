@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  paragraph: 
+  type: 
+  text: MyText
+  image_url: MyString
+  revision: 1
+  parent: 1
+  user: 
+
+two:
+  paragraph: 
+  type: 
+  text: MyText
+  image_url: MyString
+  revision: 1
+  parent: 1
+  user: 

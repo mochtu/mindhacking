@@ -1,9 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  user: 
   title: MyString
+  authors: MyString
+  published_on: 2011-12-06
+  url: MyString
 
 two:
-  user: 
   title: MyString
+  authors: MyString
+  published_on: 2011-12-06
+  url: MyString

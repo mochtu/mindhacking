@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ParagraphTest < ActiveSupport::TestCase
+class CommentsTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
