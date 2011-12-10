@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  paragraph_revision: 
-  references: 
+    paragraph_revision: one
+    reference: one
 
 two:
-  paragraph_revision: 
-  references: 
+    paragraph_revision: one_r2
+    reference: one

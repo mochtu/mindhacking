@@ -1,13 +1,33 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  user: 
-  text: MyString
+tag_one:
+  text: 'psy-ops'
   is_category: false
-  parent: 1
+  user: eulenherr
 
-two:
-  user: 
-  text: MyString
+
+tag_two:
+  user: mochtu
+  text: 'dark-power'
   is_category: false
-  parent: 1
+
+tag_two_child:
+  user: mochtu
+  parent: tag_two
+  text: 'dark-power'
+  is_category: false  
+
+tag_cat_one:
+  user: mochtu
+  text: 'train_your_mind'
+  is_category: true
+  
+tag_cat_two:
+  user: mochtu
+  text: 'influence_others'
+  is_category: true  
+
+tag_cat_three:
+  user: mochtu
+  text: 'intellectual_self_defense'
+  is_category: true

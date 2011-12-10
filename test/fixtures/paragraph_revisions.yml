@@ -1,19 +1,38 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  paragraph: 
-  type: 
-  text: MyText
-  image_url: MyString
-  revision: 1
-  parent: 1
-  user: 
-
+    paragraph: one
+    type: text
+    text: 'Revision 1 - Pellentesque pellentesque felis et enim posuere sollicitudin. Etiam sit amet ipsum quam. Quisque molestie sollicitudin eros vel bibendum. Integer iaculis orci nec ligula porttitor molestie. Donec vulputate dui ullamcorper ligula ultrices cursus. Sed mattis posuere ornare. Integer non tortor sit amet dui vulputate fermentum. Fusce aliquet, diam a molestie fringilla, tellus nulla rhoncus odio, vitae rutrum lorem ante id lacus. Curabitur nibh lacus, egestas sit amet sodales a, dignissim quis arcu. Mauris congue bibendum lacus in porta. Vestibulum tincidunt vestibulum semper. Phasellus non libero in felis tristique consequat.'
+    revision: 1
+    user: mochtu
+    
+one_r2:
+    paragraph: one
+    type: text
+    text: 'Revision 2 - Pellentesquerqtene pellentesque felis et enim posuere sollicitudin. Etiam sit amet ipsum quam. Quisque molestie sollicitudin eros vel bibendum. Integer iaculis orci nec ligula porttitor molestie. Donec vulputate dui ullamcorper ligula ultrices cursus. Sed mattis posuere ornare. Integer non tortor sit amet dui vulputate fermentum. Fusce aliquet, diam a molestie fringilla, tellus nulla rhoncus odio, vitae rutrum lorem ante id lacus. Curabitur nibh lacus, egestas sit amet sodales a, dignissim quis arcu. Mauris congue bibendum lacus in porta. Vestibulum tincidunt vestibulum semper. Phasellus non libero in felis tristique consequat.'
+    revision: 2
+    parent: 1
+    user: mochtu
+    
 two:
-  paragraph: 
-  type: 
-  text: MyText
-  image_url: MyString
-  revision: 1
-  parent: 1
-  user: 
+    paragraph: two
+    type: text
+    text: 'Revision 1 - Donec rutrum lacinia nibh, at tincidunt neque porttitor interdum. Nunc fermentum lacus a leo molestie ut fringilla arcu varius. Praesent eros augue, pharetra ut scelerisque et, malesuada a sem. In hac habitasse platea dictumst. Donec et pretium tortor. Maecenas fermentum ultricies velit non tincidunt. Nam dapibus molestie turpis, vel porta odio ullamcorper et. Vivamus tellus purus, sodales at consequat sit amet, elementum eget risus. Sed ac orci sit amet quam convallis vestibulum. Sed ut justo nec lorem porttitor interdum faucibus rutrum mi. Nulla eget mauris risus. Nullam tempor venenatis nisl, at semper massa iaculis a. Mauris vel turpis tortor. Phasellus.'
+    revision: 1
+    user: eulenherr
+    
+three:
+    paragraph: three
+    type: text
+    text: 'Revision 1 - Sed sit amet ipsum et sapien condimentum euismod. Praesent ut accumsan diam. Vestibulum molestie tincidunt dictum. Nulla augue nunc, dictum quis tempus eu, tincidunt in orci. Nullam eget feugiat velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin felis nec libero pretium vel egestas quam luctus. Aenean tristique scelerisque lobortis. In lorem nisl, auctor in adipiscing et, laoreet vel felis. Curabitur iaculis libero sed orci sodales vitae consectetur libero faucibus. Pellentesque enim magna, accumsan vitae consequat vitae, semper id purus. Integer semper nunc accumsan velit condimentum pretium.'
+    revision: 1
+    user: eulenherr    
+    
+four:
+    paragraph: four
+    type: image
+    image_url: http://eulenherr.de/images/jazz.jpg
+    revision: 1
+    user: eulenherr    
+    

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111206165429) do
+ActiveRecord::Schema.define(:version => 20111209133653) do
 
   create_table "articles", :force => true do |t|
     t.integer  "user_id"
@@ -82,11 +82,22 @@ ActiveRecord::Schema.define(:version => 20111206165429) do
 
   create_table "references_paragraph_revisions", :force => true do |t|
     t.integer "paragraph_revision_id"
-    t.integer "references_id"
+    t.integer "reference_id"
   end
 
-  add_index "references_paragraph_revisions", ["paragraph_revision_id"], :name => "index_references_paragraph_revisions_on_paragraph_revision_id"
-  add_index "references_paragraph_revisions", ["references_id"], :name => "index_references_paragraph_revisions_on_references_id"
+  add_index "references_paragraph_revisions", ["paragraph_revision_id"], :name => "index_on_paragraph_revision_id"
+  add_index "references_paragraph_revisions", ["reference_id"], :name => "index_on_reference_id"
+
+  create_table "tags", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "text"
+    t.boolean  "is_category"
+    t.integer  "parent"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "tags", ["user_id"], :name => "index_tags_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "name"

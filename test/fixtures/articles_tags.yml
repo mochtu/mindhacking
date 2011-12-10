@@ -1,9 +1,18 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  article: 
-  tag: 
 
+one:
+    article: some_article
+    tag: tag_one
+  
 two:
-  article: 
-  tag: 
+    article: some_article
+    tag: tag_two
+  
+three:
+    article: other_article
+    tag: tag_two_child 
+
+four:
+    article: other_article
+    tag: tag_cat_one

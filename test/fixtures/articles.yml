@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  user: 
-  title: MyString
+some_article:
+  user: mochtu
+  title: 'Die wunderbaren Geschichten der Prinzessin Leah'
 
-two:
-  user: 
-  title: MyString
+other_article:
+  user: eulenherr
+  title: 'Fool-Proof darlic disassembly instructions'

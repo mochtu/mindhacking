@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  name: MyString
-  email: MyString
-  password: MyString
-  gravatar: MyString
+mochtu:
+  name: Moritz
+  email: test1@mindhacking.org
+  password: 15b29ffdce66e10527a65bc6d71ad94d
+  gravatar:
 
-two:
-  name: MyString
-  email: MyString
-  password: MyString
-  gravatar: MyString
+eulenherr:
+  name: Sebastian
+  email: test2@mindhacking.org
+  password: 15b29ffdce66e10527a65bc6d71ad94d
+  gravatar:

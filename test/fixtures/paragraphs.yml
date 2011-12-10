@@ -1,11 +1,28 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  article: 
-  position: 1
-  current_revision: 1
-
+    article: some_article
+    position: 1
+    current_revision: 2
+    user: mochtu
+    
+    
 two:
-  article: 
-  position: 1
-  current_revision: 1
+    article: some_article
+    position: 2
+    current_revision: 1
+    user: mochtu    
+    
+    
+three:
+    article: other_article
+    position: 1
+    current_revision: 1
+    user: eulenherr
+    
+    
+four:
+    article: other_article
+    position: 2
+    current_revision: 1
+    user: mochtu   

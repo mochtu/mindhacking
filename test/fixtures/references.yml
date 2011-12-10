@@ -1,13 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  title: MyString
-  authors: MyString
-  published_on: 2011-12-06
-  url: MyString
+    title: Venture Magazine Capital Report Lipsum
+    authors: 'Commrad & Wayne'
+    published_on: 2013
+    url: http://munich-it.de/null
 
-two:
-  title: MyString
-  authors: MyString
-  published_on: 2011-12-06
-  url: MyString

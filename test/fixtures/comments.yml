@@ -1,15 +1,20 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  paragraph_revision: 
-  paragraph: 
-  article: 
-  text: MyText
-  user: 
+    text: I'm a shiny comment!
+    user: mochtu
+    article: other_article
 
 two:
-  paragraph_revision: 
-  paragraph: 
-  article: 
-  text: MyText
-  user: 
+    text: I'm a other shiny comment!
+    user: mochtu
+    paragraph_revision: one_r2
+    
+three:
+    text: I'm a shiny comment!
+    user: mochtu
+    paragraph: four
+#need some tests if a comment hast more than one relation to either [article, paragraph_revision, paragraph] cause it may not have more than one!
+
+
+
